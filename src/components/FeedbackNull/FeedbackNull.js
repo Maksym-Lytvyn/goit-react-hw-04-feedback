@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types';
 
-export const FeedbackNull = ({message}) => {
-    return (
-      <div>
-        <p>{message}</p>
-      </div>
-    );
-}
+const FeedbackNull = ({ message }) => {
+  return (
+    <div>
+      <p>{message}</p>
+    </div>
+  );
+};
+export default FeedbackNull;
 FeedbackNull.propTypes = {
   message: PropTypes.string.isRequired,
 };
